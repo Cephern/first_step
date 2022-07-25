@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #ddd;
+}
+
+/* nav */
+
+.App {
+        background-color: #282D35;
+}
+
+nav {
+    width: 550px;
+    height: 90px;
+    background-color: #21222A;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+nav .logo img {
+    width: 29px;
+    height: 29px;
+    fill: #00D8FF;
+    margin-right: 10px;
+}
+
+nav .logo p {
+    font-size: 22.25px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: -5%;
+    color: #efefef;
+}
+
+nav .logo span {
+    color: #61DAFB;
+}
+
+nav h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+/* main */
+main {
+    width: 550px;
+    height: 460px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 0 30px;
+    background-image: url('./assets/react.svg');
+    background-repeat: no-repeat;
+    background-position: 146% 50%;
+    background-size: 263px 263px;
+}
+
+main h1 {
+    margin: 0;
+    padding: 30px 20px 20px;
+    font-size: 39px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+}
+
+main ul {
+    max-width: 400px;
+}
+
+main ul li {
+    padding-block: 10px;
+}
+
+main ul li::marker {
+    color: #61DAFB;
+    font-size: 1.4em;
+}
