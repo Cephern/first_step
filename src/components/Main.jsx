@@ -1,6 +1,6 @@
-export default function Main() {
+export default function Main({ darkMode }) {
   return (
-    <main>
+    <main className={darkMode ? "dark" : ""}>
       <h1>Facts about React</h1>
 
       <ul>
